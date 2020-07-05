@@ -4,28 +4,28 @@
 
 
 ## API Doc
-1. Login
+#### Login
 POST /api/login/
 Params:
   username=<username>
   password=<password>
 
-2. Logout
+#### Logout
 GET /api/logout/
 
-### List all users - login required
+#### List all users - login required
 GET /api/users/
 
-### Retrieve balance - login required
+#### Retrieve balance - login required
 GET /api/balance/
 
-### Retrieve Transactions - login required
+#### Retrieve Transactions - login required
 GET /api/transactions/
 
-### Get all transactions - login required
+#### Get all transactions - login required
 GET /api/all_transactions/
 
-### Transfer money - login required
+#### Transfer money - login required
 POST /api/transfer/
 Params:
   to=<username of user who received the money>
