@@ -11,7 +11,7 @@ Params:
 
   username=&lt;username&gt;
 
-  password=<password>
+  password=&lt;password&gt;
 
 #### Logout
 GET /api/logout/
@@ -33,6 +33,6 @@ POST /api/transfer/
 
 Params:
 
-  to=<username of user who received the money>
+  to=&lt;username of user who received the money&gt;
 
-  amount=<amount>
+  amount=&lt;amount&gt;
