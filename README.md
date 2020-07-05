@@ -6,8 +6,11 @@
 ## API Doc
 #### Login
 POST /api/login/
+
 Params:
+
   username=<username>
+
   password=<password>
 
 #### Logout
@@ -27,6 +30,9 @@ GET /api/all_transactions/
 
 #### Transfer money - login required
 POST /api/transfer/
+
 Params:
+
   to=<username of user who received the money>
+
   amount=<amount>
