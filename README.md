@@ -1,16 +1,16 @@
 # MobileWallet2020
 
-## Run application
+## How to run the application
 
 
 ## API Doc
-### Login
+1. Login
 POST /api/login/
 Params:
   username=<username>
   password=<password>
 
-### Logout
+2. Logout
 GET /api/logout/
 
 ### List all users - login required
