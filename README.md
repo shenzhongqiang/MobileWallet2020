@@ -9,7 +9,7 @@ POST /api/login/
 
 Params:
 
-  username=<username>
+  username=&lt;username&gt;
 
   password=<password>
 
