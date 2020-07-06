@@ -3,8 +3,26 @@
 ## How to run the application
 
 ```bash
-docker run -p8000:8000 -d mobile/wallet:1.0
+docker pull shenzhongqiang/mobilewallet:1.0
+docker run -p8000:8000 -d shenzhongqiang/mobilewallet:1.0
 ```
+
+## See existing users
+open browser, go to
+
+http://localhost:8000/api/users/
+
+password for admin is admin, for john and jack is 12345678
+
+## How to login
+go to http://localhost:8000/api/login/
+
+use one of the username/password
+
+## How to transfer money
+go to http://localhost:8000/api/transfer/
+
+input target username and amount of money
 
 
 ## API Doc
