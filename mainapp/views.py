@@ -40,7 +40,6 @@ def logout_user(request):
     }
     return JsonResponse(result)
 
-@login_required
 @record_usage
 def list_users(request):
     user_objs = User.objects.all()

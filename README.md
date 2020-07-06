@@ -2,6 +2,10 @@
 
 ## How to run the application
 
+```bash
+docker run -p8000:8000 -d mobile/wallet:1.0
+```
+
 
 ## API Doc
 #### Login
@@ -16,7 +20,7 @@ Params:
 #### Logout
 GET /api/logout/
 
-#### List all users - login required
+#### List all users
 GET /api/users/
 
 #### Retrieve balance - login required
